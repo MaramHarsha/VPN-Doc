@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Hot VPN Pro</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <!-- Le styles -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/jquery.tocify.css" rel="stylesheet">
+        <link href="css/prettify.css" type="text/css" rel="stylesheet" />
+        <link href="css/style.css" type="text/css" rel="stylesheet" />
+
+        <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+        <!-- Le fav and touch icons -->
+        <link rel="shortcut icon" href="../ico/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="../ico/apple-touch-icon-57-precomposed.png">
+        <!-- Syntax Highlighter -->
+
+          <style>
+            body {
+                padding-top: 20px;
+            }
+            p {
+                font-size: 16px;
+                line-height: 25px;
+                margin: 15px 0;
+            }
+            .headerDoc {
+                color: #005580;
+            }
+            hr {
+                margin-top: 180px;
+            }
+            img {
+                margin: 30px 0;
+                padding: 10px;
+                background: #EDEDED;
+            }
+            .alert {
+                font-size: 16px;
+                padding: 5px 10px;
+                line-height: 27px;
+                font-weight: 500;
+            }
+            .lis li{line-height: 25px; font-size: 16px;}
+            .tocify {
+                width: 20%;
+                max-height: 90%;
+                overflow: auto;
+                margin-left: 0
+            }
+            .span9.builder{
+                margin-left: 0px;
+            }
+            .wistia_18_socialbar {
+                display: none;
+            }
+            /*            p>b {
+                            font-size: 24px
+                        }*/
+            @media (max-width: 767px) {
+                #toc {
+                    position: relative;
+                    width: 100%;
+                    margin: 0px 0px 20px 0px;
+                }
+            }
+        </style>
+        <base target="_blank">
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-fixed-top ">
+
+            <div class="navbar-inner">
+                <div class="container">
+                    <p class="brand" >Documentation for Hot VPN Pro - Unlimited High Speed VPN<p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid main-doc">
+
+
+            <div class="row-fluid">
+                <div class="span3">
+                    <div id="toc">
+                    </div><!--/.well -->
+                </div><!--/span-->
+                <div class="span9 builder">
+                    <div class="main">
+                        <div class="hero-unit">
+                            <h2>General information</h2>
+
+                            Hot VPN Pro Version: 1.0
+                            <br>
+                            Completed on:  15/08/2021
+                            <br>
+                            Created by: Harsha
+                            <br>
+                           <b> Support Email: maramsaiharsha128@gmail.com </b>
+                         
+                            <p>Thank you for Checking out Hot VPN Pro. If you have any questions that are beyond the scope of this help file, please feel free to write me a email. I will reply in minimum time.</p>
+                        </div>
+
+
+                        <hr>
+                        <h2>Introduction and quick start guide.</h2>
+
+                        <p>Thank you so much for Visiting <strong>Hot VPN Pro</strong>. Please feel free to contact me if you have questions or problems about this app. No guarantee is provided, but i will do my best to provide you with the best possible assistance.</p>
+
+                        <h2>Which Android Studio version is needed?</h2>
+                        <p>Latest Android Studio version is recommended, which can be downloaded
+from here : <a href="http://developer.android.com/intl/en/sdk/index.html">Android Studio</a></strong></p>
+
+
+                       
+                        <hr />
+
+                       
+                        <h2>How to Open The Project in Android Studio?</h2>
+                        <p>To open app in android studio, Go to Android Studio > Open an Existing Android Studio Project > Select
+Your Hot VPN Pro project file > ok <br>
+After that It will take few minutes in process and your app will be
+succesfully import. </p>
+                        <hr />
+
+
+                        <h2>How to Change app name?</h2>
+                        <p>To change the app name. Go to (Res > Values > Strings.xml) Here you will find the app name . Remove the old app name and Enter your new app name here. <br>
+<b>Example: Enter your app name inside "Hot VPN Pro" </b> <br>
+</p>  
+                        <hr />
+
+                        <h2>How to change Package Name?</h2>
+                        <p>To change the package name, Go to (Java > Com > harsha) right click on harsha then go to (Refactor > Rename)
+after clicking on rename, Enter your new package name in dialog box and
+click on refactor after that in bottom you will see, do refactor button. Click on that button. your first package name process would be complete. 
+<b>After changing package name from here you have to follow one more step
+to complete the package name. </b> </p>  
+						
+						
+						<p>Now go to (build.gradle) and find the application id.(Eg: com.harsha.hotvpnpro) Enter you package name same as you enter
+above process, and click on sync. Your package name has changed now.</b> </p>  
+						
+				
+
+                        <h2>How to setup One Signal Notification?</h2>
+                        <p>Go to (build.gradle) and enter your onesignal ID at the place of (put_your_onesignal_id_here).
+						
+						<h2>How to Setup your own VPN SDK Credentials?</h2>
+                        <p>Go to <a href="https://developer.anchorfree.com/" target="_blank">developer.anchorfree.com</a> and Register a free account at <a href="https://developer.anchorfree.com/" target="_blank">developer.anchorfree.com</a> After Registeration Create a new project. Fill information as below given image</p> 
+                        <img src="images/createproject.png" alt="" />
+						
+						<p>After Creating project click on your app project as below given image</p> 
+                        <img src="images/project.png" alt="" />
+						
+						<p>Now copy your project id as shown in below image</p> 
+                        <img src="images/id.png" alt="" />
+						
+							<p>After copying your project id Go to android studio and open build.gradle and find the BASE CAREER ID Line and replace/paste your code on the place of blue line given below image</p> 
+                        <img src="images/paste here.png" alt="" />
+						
+						<p>Now go to your <a href="https://developer.anchorfree.com/" target="_blank">developer.anchorfree.com</a> Dashboard and click on the Network. after that click on add location then select location. You can select location one by one as many as you want to keep in your app. See screenshot below</p> 
+                        <img src="images/server.png" alt="" />
+						
+                         <h2>How to Setup Facebook Ads and Google Ads?</h2>
+						 <p>To setup facebook ads Go to (build.gradle) and enter your facebook Banner and Interstitial ID in (as per below given image)<br>To setup Google Ads enter your Details there.<br> </p> 
+                         <img src="images/ads.png" alt="" />
+						 
+                         <h2>How to Setup In-app Purchase?</h2>
+						 <p>To setup In-app Purchase Go to (build.gradle) and find the below given values. Enter your all in-app purchase in the place</P>
+                        <img src="images/purchase.png" alt="" />
+
+                        <p>Once again, thank you so much for Visiting my app. As I said at the beginning, I am glad to help you if you have any questions relating to this App. Just contact us via email at maramsaiharsha128@gmail.com. And please do not forget to Follow me on GitHub! :)</p>
+
+                        <p>Thanks & Best Regards <br>Maram Sai Harsha</p>
+
+
+
+
+
+
+
+                    </div><!--main-->
+                </div>
+
+            </div><!--/row-->
+
+        </div><!--/.fluid-container-->
+
+        <!-- Le javascript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery-ui-1.9.1.custom.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.tocify.min.js"></script>
+        <script src="js/jquery.syntaxhighlighter.min.js"></script>
+
+        <script>
+            $( function () {
+
+                var toc = $( "#toc" ).tocify( {
+                    selectors: "h2,h3,h4,h5",
+                    highlightOffset: 40,
+                    scrollTo: 70,
+                    showAndHide: true
+                } ).data( "toc-tocify" );
+
+
+
+            } );
+            $.SyntaxHighlighter.init();
+        </script>
+
+    </body>
+</html>
